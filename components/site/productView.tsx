@@ -29,7 +29,7 @@ export default async function ProductView({ id }: { id: string }) {
             <h2 className="text-sm  title-font text-foreground/50 tracking-widest">
               {allData.brand}
             </h2>
-            <h1 className="text-foreground font-bold text-3xl title-font  mb-4">
+            <h1 className="text-foreground font-bold text-3xl title-font mb-4">
               {allData.title}
             </h1>
             <div className="flex mb-4">
