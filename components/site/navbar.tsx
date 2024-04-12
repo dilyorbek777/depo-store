@@ -7,11 +7,11 @@ import { Button } from "../ui/button";
 import { Menu, X } from "lucide-react";
 import Logo from "./logo";
 import { ThemeChanger } from "./theme-changer";
+import { SearchBar } from "./searchBar";
 
 const links = [
-  { title: "Blog", href: "/blog" },
-  { title: "Why us", href: "/whyus" },
-  { title: "Pricing", href: "/pricing" },
+  { title: "Products", href: "/products" },
+  { title: "Categories", href: "/category" },
 ];
 export default function Navbar() {
   const [toggle, setToggle] = useState(false);
@@ -61,10 +61,18 @@ export default function Navbar() {
             id="login"
             role="none"
             area-label={"Login"}
+            variant={"outline"}
+          >
+            Login
+          </Button>
+          <Button
+            id="Register"
+            role="none"
+            area-label={"Register"}
             variant={"default"}
             className="bg-primary"
           >
-            Login
+            Register
           </Button>
           <ThemeChanger />
           <div

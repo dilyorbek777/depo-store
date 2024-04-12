@@ -37,10 +37,10 @@ export function CustomCard({
 }) {
   return (
     <Link href={"/products/" + id}>
-      <Card className="w-[350px] p-1">
+      <Card className="max-w-[320px] w-full p-1">
         <CustomImage
           img={thumbnail}
-          classname="w-full object-cover h-56"
+          classname="w-full  object-cover h-52"
           alt={title}
         />
         <CardHeader>

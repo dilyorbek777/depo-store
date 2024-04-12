@@ -9,11 +9,6 @@ export default async function Categories() {
   console.log(cte);
 
   return (
-    // <div className="max-w-[1440]  mx-auto flex items-center justify-center overflox-scroll gap-28">
-    //   {cte.map((c: string) => (
-    //     <p>{c}</p>
-    //   ))}
-    // </div>
     <div className="w-full">
       <div className="wu-max flex-center flex-col gap-10">
         {/* <div className="w-80 h-1 rounded-full bg-primary" /> */}

@@ -19,7 +19,7 @@ export default function Logo() {
         alt=" logo"
       />
       <p>
-        <span className="text-primary">DEPO</span>Store
+        <span className="text-primary max-sm:hidden">DEPO</span>Store
       </p>
     </div>
   );
