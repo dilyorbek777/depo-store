@@ -28,7 +28,7 @@ export default function Footer() {
           <div className="lg:w-1/4 md:w-1/2 w-full px-4">
             <nav className="list-none mb-10">
               {cte1.map((c) => (
-                <li>
+                <li key={c}>
                   <Link
                     href={"/category/" + c}
                     className="text-muted-foreground capitalize hover:text-foreground/60"
@@ -42,7 +42,7 @@ export default function Footer() {
           <div className="lg:w-1/4 md:w-1/2 w-full px-4">
             <nav className="list-none mb-10">
               {cte2.map((c) => (
-                <li>
+                <li key={c}>
                   <Link
                     href={"/category/" + c}
                     className="text-muted-foreground capitalize hover:text-foreground/60"
@@ -56,7 +56,7 @@ export default function Footer() {
           <div className="lg:w-1/4 md:w-1/2 w-full px-4">
             <nav className="list-none mb-10">
               {cte3.map((c) => (
-                <li>
+                <li key={c}>
                   <Link
                     href={"/category/" + c}
                     className="text-muted-foreground capitalize hover:text-foreground/60"
@@ -70,7 +70,7 @@ export default function Footer() {
           <div className="lg:w-1/4 md:w-1/2 w-full px-4">
             <nav className="list-none mb-10">
               {cte5.map((c) => (
-                <li>
+                <li key={c}>
                   <Link
                     href={"/category/" + c}
                     className="text-muted-foreground capitalize hover:text-foreground/60"

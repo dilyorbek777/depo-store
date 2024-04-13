@@ -26,8 +26,8 @@ export default async function CteID({
         <h1 className="text-6xl font-bold text-foreground max-[580px]:text-4xl max-[400px]:text-2xl text-start ">
           Products for
           <span className="text-primary">
-            {" "}
-            "{params.cid.split("%20").join(" ")}"
+          
+            `"${params.cid.split("%20").join(" ")}"`
           </span>
         </h1>
       )}

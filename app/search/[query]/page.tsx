@@ -26,8 +26,8 @@ export default async function QuerySearch({
         <h1 className="text-6xl font-bold text-foreground max-[580px]:text-4xl max-[400px]:text-2xl text-start ">
           Results for
           <span className="text-primary">
-            {" "}
-            "{params.query.split("%20").join(" ")}"
+           
+            `"${params.query.split("%20").join(" ")}"`
           </span>
         </h1>
       )}
