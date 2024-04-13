@@ -74,7 +74,6 @@ export default function Navbar() {
           >
             Register
           </Button>
-          <ThemeChanger />
           <div
             className={
               toggle
