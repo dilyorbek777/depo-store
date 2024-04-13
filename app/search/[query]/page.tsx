@@ -27,7 +27,7 @@ export default async function QuerySearch({
           Results for
           <span className="text-primary">
            
-            `"${params.query.split("%20").join(" ")}"`
+            `${params.query.split("%20").join(" ")}`
           </span>
         </h1>
       )}
